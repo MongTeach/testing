@@ -1,6 +1,7 @@
 * {
 	padding: 2px;
 	font-family: arial;
+	position: relative;
 }
 
 header {
@@ -14,23 +15,13 @@ article {
 	float: left;
 }
 
-.header1 {
-	text-align: right;
-	background-color: red;
-}
-.header2 {
-	text-align: right;
-	background-color: blue;
-}
-.header3 {
-	text-align: right;
-	background-color: yellow;
+p{
+	padding: 55px 10px 5px 10px;
 }
 
 .menu1 {
 	background-color: gray;
 	border: 1px solid black;
-
 }
 
 .menu2 {
@@ -42,6 +33,42 @@ article {
 	background-color: gray;
 	border: 1px solid black;
 }
+
+
+.header1 {
+	background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+.header2 {
+	background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+.header3 {
+	background-color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 @media (min-width: 992px){
 	article {
